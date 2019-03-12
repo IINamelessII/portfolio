@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'main/base.css' %}">
+    <link rel="stylesheet" href="{% static 'main/logofont/logofont.css' %}">
+    <div class="top-bar">
+        <a class="logo noselect" href="{% url 'index' %}">
+            Oleh Serikov
+        </a>
+        <p class="desc">The web developer for companies with deadlines.</p>
+        <div class="navigation">
+            <ul>
+                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="nav-link">Technologies and Methodologies</a></li>
+                <li><a href="" class="nav-link">Projects</a></li>
+                <li><a href="" class="nav-link">Education</a></li>
+                <li><a href="" class="nav-link">Contacts and Links</a></li>
+            </ul>
+        </div>
+    </div>
+</head>
+<body>
+    {% block body %}{% endblock body %}
+    <div class="subfooter">
+        It was Oleh
+    </div>
+    <div class="footer">
+        Goodbuy!
+    </div>
+</body>
+<script src="{% static 'main/base.js' %}"></script>
+</html>
