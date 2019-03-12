@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+.top-bar {
+    background-color: #0C4B33;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.top-bar .logo {
+    font-size: 4rem;
+    margin-left: 10%;
+    margin-right: 10px;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    float: left;
+    font-family: MyLogoFont, 'MyLogoFont', "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+.top-bar .desc {
+    color: #44B78B;
+    width: 10%;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    font-size: 1.3rem;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+.top-bar .navigation {
+    margin-left: auto;
+    margin-right: 10%;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+.top-bar ul {
+    list-style: none;
+    display: -webkit-inline-box;
+}
+
+.top-bar a:visited {
+    color: #fff;
+}
+
+.top-bar .navigation a:hover {
+    color: #C9F0DD;
+}
+
+.top-bar .navigation li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subfooter {
+    background: #44B78B;
+    color: #fff;
+}
+
+.footer {
+    background: #0C4B33;
+    color: #2B8C67;
+}
+
+a {
+    text-decoration: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+/* @font-face {
+    font-family: 'MyLogoFont';
+    src: url('logofont/webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff') format('woff'), /* Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+} */
